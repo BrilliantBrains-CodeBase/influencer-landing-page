@@ -1,0 +1,458 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Log In" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Freel%2FDW2-UhMANwh%2F&source=desktop_nav
+      - link "Sign Up" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Close" [ref=e37] [cursor=pointer]:
+          - img "Close" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "harmeetkauranand_'s profile picture" [ref=e46] [cursor=pointer]:
+              - img "harmeetkauranand_'s profile picture" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Never miss a post from harmeetkauranand_
+              - generic [ref=e52]: Sign up for Instagram to stay in the loop.
+              - generic [ref=e54]:
+                - text: By continuing, you agree to Instagram's
+                - link "Terms of Use" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=en_US
+                - text: and
+                - link "Privacy Policy" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: .
+          - generic [ref=e57]:
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Log in" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - group "Video player" [ref=e82]:
+          - button "Toggle audio" [ref=e84] [cursor=pointer]:
+            - img "Audio is muted" [ref=e86]
+          - button "Tags" [ref=e89] [cursor=pointer]:
+            - img "Tags" [ref=e91]
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - link "one.science.nutrition.in's profile picture" [ref=e99]:
+                - img "one.science.nutrition.in's profile picture" [ref=e100]
+              - link "harmeetkauranand_'s profile picture" [ref=e103]:
+                - img "harmeetkauranand_'s profile picture" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e109]:
+                - link "harmeetkauranand_" [ref=e111] [cursor=pointer]:
+                  - /url: /harmeetkauranand_/
+                  - generic [ref=e114]: harmeetkauranand_
+                - text: and
+                - link "2 others" [ref=e116] [cursor=pointer]:
+                  - /url: "#"
+              - link "SXLLX, Oliveira Mc 011 • MAMA MA (Slowed)" [ref=e120] [cursor=pointer]:
+                - /url: /reels/audio/1096724068757662/
+                - generic [ref=e123]:
+                  - text: SXLLX, Oliveira Mc 011
+                  - generic [ref=e124]: •
+                  - text: MAMA MA (Slowed)
+            - button "More options" [ref=e127] [cursor=pointer]:
+              - img "More options" [ref=e130]
+          - separator [ref=e134]
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - link "harmeetkauranand_'s profile picture" [ref=e140] [cursor=pointer]:
+                - /url: /harmeetkauranand_/
+                - img "harmeetkauranand_'s profile picture" [ref=e141]
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - link "harmeetkauranand_" [ref=e147] [cursor=pointer]:
+                    - /url: /harmeetkauranand_/
+                    - generic [ref=e150]: harmeetkauranand_
+                  - time [ref=e152]: 3w
+                - generic [ref=e153]:
+                  - text: Discipline shaped this physique⏳
+                  - text: But
+                  - link "@one.science.nutrition.in" [ref=e154] [cursor=pointer]:
+                    - /url: /one.science.nutrition.in/
+                  - text: fuels the recovery 💪
+                  - text: Every rep breaks you down, every recovery builds you back stronger💪
+                  - text: Ft
+                  - link "@one.science.nutrition.in" [ref=e155] [cursor=pointer]:
+                    - /url: /one.science.nutrition.in/
+                  - text: One science nutrition, protein powder, discipline, muscle training, strength training, physique, girls gym, gym girl, viral, motivation, consistency, viral workout, viral fitness, fitness routine, search page
+            - button "Load more comments" [ref=e157] [cursor=pointer]:
+              - img "Load more comments" [ref=e159]
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "official_mj_dheeraj's profile picture" [ref=e167] [cursor=pointer]:
+                  - /url: /official_mj_dheeraj/
+                  - img "official_mj_dheeraj's profile picture" [ref=e168]
+                - generic [ref=e170]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]:
+                      - link "official_mj_dheeraj" [ref=e175] [cursor=pointer]:
+                        - /url: /official_mj_dheeraj/
+                        - generic [ref=e178]: official_mj_dheeraj
+                      - link "1w" [ref=e180] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18114957967688433/
+                        - time [ref=e181]: 1w
+                    - generic [ref=e183]: 🔥
+                  - generic [ref=e184]:
+                    - button "Like" [ref=e185] [cursor=pointer]:
+                      - generic [ref=e186]: Like
+                    - button "Reply" [ref=e187] [cursor=pointer]:
+                      - generic [ref=e189]: Reply
+              - generic [ref=e192]:
+                - link "pvttt_thakur__'s profile picture" [ref=e195] [cursor=pointer]:
+                  - /url: /pvttt_thakur__/
+                  - img "pvttt_thakur__'s profile picture" [ref=e196]
+                - generic [ref=e198]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]:
+                      - link "pvttt_thakur__" [ref=e203] [cursor=pointer]:
+                        - /url: /pvttt_thakur__/
+                        - generic [ref=e206]: pvttt_thakur__
+                      - link "2w" [ref=e208] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/17861654700568057/
+                        - time [ref=e209]: 2w
+                    - generic [ref=e211]:
+                      - link "@one.science.nutrition.in" [ref=e212] [cursor=pointer]:
+                        - /url: /one.science.nutrition.in/
+                      - text: 🔥❤️
+                  - generic [ref=e213]:
+                    - button "Like" [ref=e214] [cursor=pointer]:
+                      - generic [ref=e215]: Like
+                    - button "Reply" [ref=e216] [cursor=pointer]:
+                      - generic [ref=e218]: Reply
+              - generic [ref=e221]:
+                - link "sukriti.diaries's profile picture" [ref=e224] [cursor=pointer]:
+                  - /url: /sukriti.diaries/
+                  - img "sukriti.diaries's profile picture" [ref=e225]
+                - generic [ref=e227]:
+                  - generic [ref=e229]:
+                    - generic [ref=e230]:
+                      - link "sukriti.diaries" [ref=e232] [cursor=pointer]:
+                        - /url: /sukriti.diaries/
+                        - generic [ref=e235]: sukriti.diaries
+                      - link "3w" [ref=e237] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/17903810868404485/
+                        - time [ref=e238]: 3w
+                    - generic [ref=e240]: 😍😍😍
+                  - generic [ref=e241]:
+                    - button "Like" [ref=e242] [cursor=pointer]:
+                      - generic [ref=e243]: Like
+                    - button "Reply" [ref=e244] [cursor=pointer]:
+                      - generic [ref=e246]: Reply
+              - generic [ref=e249]:
+                - link "raulwadhwa's profile picture" [ref=e252] [cursor=pointer]:
+                  - /url: /raulwadhwa/
+                  - img "raulwadhwa's profile picture" [ref=e253]
+                - generic [ref=e255]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]:
+                      - link "raulwadhwa Verified" [ref=e260] [cursor=pointer]:
+                        - /url: /raulwadhwa/
+                        - generic [ref=e262]:
+                          - generic [ref=e263]: raulwadhwa
+                          - img "Verified" [ref=e265]
+                      - link "3w" [ref=e268] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18186872686372672/
+                        - time [ref=e269]: 3w
+                    - generic [ref=e271]: 😍❤️
+                  - generic [ref=e272]:
+                    - button "Like" [ref=e273] [cursor=pointer]:
+                      - generic [ref=e274]: Like
+                    - button "Reply" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e277]: Reply
+              - generic [ref=e280]:
+                - link "avleenkaur21__'s profile picture" [ref=e283] [cursor=pointer]:
+                  - /url: /avleenkaur21__/
+                  - img "avleenkaur21__'s profile picture" [ref=e284]
+                - generic [ref=e286]:
+                  - generic [ref=e288]:
+                    - generic [ref=e289]:
+                      - link "avleenkaur21__" [ref=e291] [cursor=pointer]:
+                        - /url: /avleenkaur21__/
+                        - generic [ref=e294]: avleenkaur21__
+                      - link "3w" [ref=e296] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18098569847007493/
+                        - time [ref=e297]: 3w
+                    - generic [ref=e299]: 👏❤️❤️❤️
+                  - generic [ref=e300]:
+                    - button "1 like" [ref=e301] [cursor=pointer]:
+                      - generic [ref=e303]: 1 like
+                    - button "Reply" [ref=e304] [cursor=pointer]:
+                      - generic [ref=e306]: Reply
+              - generic [ref=e309]:
+                - link "femalemusclemonsterz's profile picture" [ref=e312] [cursor=pointer]:
+                  - /url: /femalemusclemonsterz/
+                  - img "femalemusclemonsterz's profile picture" [ref=e313]
+                - generic [ref=e315]:
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - link "femalemusclemonsterz" [ref=e320] [cursor=pointer]:
+                        - /url: /femalemusclemonsterz/
+                        - generic [ref=e323]: femalemusclemonsterz
+                      - link "3w" [ref=e325] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18126402682504082/
+                        - time [ref=e326]: 3w
+                    - generic [ref=e328]: 🔥🔥😍😍
+                  - generic [ref=e329]:
+                    - button "Like" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]: Like
+                    - button "Reply" [ref=e332] [cursor=pointer]:
+                      - generic [ref=e334]: Reply
+              - generic [ref=e337]:
+                - link "avneesh.singh.27's profile picture" [ref=e340] [cursor=pointer]:
+                  - /url: /avneesh.singh.27/
+                  - img "avneesh.singh.27's profile picture" [ref=e341]
+                - generic [ref=e343]:
+                  - generic [ref=e345]:
+                    - generic [ref=e346]:
+                      - link "avneesh.singh.27" [ref=e348] [cursor=pointer]:
+                        - /url: /avneesh.singh.27/
+                        - generic [ref=e351]: avneesh.singh.27
+                      - link "3w" [ref=e353] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18407841415176018/
+                        - time [ref=e354]: 3w
+                    - generic [ref=e356]:
+                      - text: Fab in every
+                      - link "@ngle" [ref=e357] [cursor=pointer]:
+                        - /url: /ngle/
+                      - text: 🔥
+                  - generic [ref=e358]:
+                    - button "Like" [ref=e359] [cursor=pointer]:
+                      - generic [ref=e360]: Like
+                    - button "Reply" [ref=e361] [cursor=pointer]:
+                      - generic [ref=e363]: Reply
+              - generic [ref=e366]:
+                - link "vivekdhallnews's profile picture" [ref=e369] [cursor=pointer]:
+                  - /url: /vivekdhallnews/
+                  - img "vivekdhallnews's profile picture" [ref=e370]
+                - generic [ref=e372]:
+                  - generic [ref=e374]:
+                    - generic [ref=e375]:
+                      - link "vivekdhallnews" [ref=e377] [cursor=pointer]:
+                        - /url: /vivekdhallnews/
+                        - generic [ref=e380]: vivekdhallnews
+                      - link "3w" [ref=e382] [cursor=pointer]:
+                        - /url: /p/DW2-UhMANwh/c/18098983324811642/
+                        - time [ref=e383]: 3w
+                    - generic [ref=e385]: Always stunning 🔥
+                  - generic [ref=e386]:
+                    - button "Like" [ref=e387] [cursor=pointer]:
+                      - generic [ref=e388]: Like
+                    - button "Reply" [ref=e389] [cursor=pointer]:
+                      - generic [ref=e391]: Reply
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - generic [ref=e394]:
+                - button "Like" [ref=e397] [cursor=pointer]:
+                  - img "Like" [ref=e400]
+                - button "161" [ref=e402] [cursor=pointer]
+                - button "Comment" [ref=e404] [cursor=pointer]:
+                  - img "Comment" [ref=e406]
+                - button "8" [ref=e408] [cursor=pointer]
+                - button "Share" [ref=e409] [cursor=pointer]:
+                  - img "Share" [ref=e410]
+              - button "Save" [ref=e414] [cursor=pointer]:
+                - img "Save" [ref=e416]
+            - link "April 7" [ref=e420] [cursor=pointer]:
+              - /url: /harmeetkauranand_/reel/DW2-UhMANwh/
+              - time [ref=e422]: April 7
+          - generic [ref=e427]:
+            - link "Log in" [ref=e428] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Freel%2FDW2-UhMANwh%2F&source=post_comment_input
+            - text: to like or comment.
+      - separator [ref=e430]
+      - generic [ref=e431]:
+        - generic [ref=e433]:
+          - text: More posts from
+          - link "harmeetkauranand_" [ref=e434] [cursor=pointer]:
+            - /url: /harmeetkauranand_/
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - link "A first look into the space we’ve been quietly building… Not just a studio. Not just another label. Something more personal. More intentional. The doors haven’t opened yet — but you’ve already been invited in. Stay close. Clip" [ref=e440] [cursor=pointer]:
+              - /url: /harmeetkauranand_/reel/DX4Jc_gg9GY/
+              - img "A first look into the space we’ve been quietly building… Not just a studio. Not just another label. Something more personal. More intentional. The doors haven’t opened yet — but you’ve already been invited in. Stay close." [ref=e443]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - link "I’m my own safest bet, Every single day🤍 If we haven’t met yet, here I am. Built on patience, detail and obsession with perfection. Turning ideas into outfits and outfits into statements for women who don’t need validation. Clip" [ref=e446] [cursor=pointer]:
+              - /url: /harmeetkauranand_/reel/DX1qeXEAVBS/
+              - img "I’m my own safest bet, Every single day🤍 If we haven’t met yet, here I am. Built on patience, detail and obsession with perfection. Turning ideas into outfits and outfits into statements for women who don’t need validation." [ref=e449]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "one scoop of science, just fuels you smarter for strength 🔥💪 ft @one.science.nutrition.in Science-based Performance Energy boost Pre-workout fuel Strength Endurance Power mode Peak performance #preworkout #beforeworkout #gymreel #strengthtraining #preworkoutmeal Clip" [ref=e452] [cursor=pointer]':
+              - /url: /harmeetkauranand_/reel/DXy3w1jAKBT/
+              - 'img "one scoop of science, just fuels you smarter for strength 🔥💪 ft @one.science.nutrition.in Science-based Performance Energy boost Pre-workout fuel Strength Endurance Power mode Peak performance #preworkout #beforeworkout #gymreel #strengthtraining #preworkoutmeal" [ref=e455]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+          - generic [ref=e457]:
+            - 'link "The way he talks about you when you’re not around >>> baby you’re worth it, outfit check, ootd, bare minimum, efforts, fyp, viral, explore page, outfit of the day, party night, date outfit #datenight #trendingnow #fashionstyle Clip" [ref=e459] [cursor=pointer]':
+              - /url: /harmeetkauranand_/reel/DXwRixvgQFa/
+              - 'img "The way he talks about you when you’re not around >>> baby you’re worth it, outfit check, ootd, bare minimum, efforts, fyp, viral, explore page, outfit of the day, party night, date outfit #datenight #trendingnow #fashionstyle" [ref=e462]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "Start training your back and see your whole personality changing💪 [Gymworkouts, backworkouts, posture, leanback, backcurves, workoutsplit, closegrip, gymwear, gymmotivation, gymgirls, hourglassphysique, pullups, chinups, rowing, upperbackmuscles, muscletraining, strengthtraining, workhard, discipline, consistency ] #gymworkout #backworkouts #gymgirls #physique #strengthtrainingforwomen Carousel" [ref=e465] [cursor=pointer]':
+              - /url: /harmeetkauranand_/p/DXq4ZEbDI1N/
+              - 'img "Start training your back and see your whole personality changing💪 [Gymworkouts, backworkouts, posture, leanback, backcurves, workoutsplit, closegrip, gymwear, gymmotivation, gymgirls, hourglassphysique, pullups, chinups, rowing, upperbackmuscles, muscletraining, strengthtraining, workhard, discipline, consistency ] #gymworkout #backworkouts #gymgirls #physique #strengthtrainingforwomen" [ref=e468]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carousel"
+            - link "the kind of girl you don't figure out easily 💛 [outfitcheck, ootd, fashiondesigner, fashionmkod. Casual chicklook, minimalstyle, styledinlevis, mood, girlenergy, streetwear, casualstyle, fashionpost, outfitinspo, coffeedate, coffeeootd, trendingfashion ] Carousel" [ref=e471] [cursor=pointer]:
+              - /url: /harmeetkauranand_/p/DXmru2LEogJ/
+              - img "the kind of girl you don't figure out easily 💛 [outfitcheck, ootd, fashiondesigner, fashionmkod. Casual chicklook, minimalstyle, styledinlevis, mood, girlenergy, streetwear, casualstyle, fashionpost, outfitinspo, coffeedate, coffeeootd, trendingfashion ]" [ref=e474]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carousel"
+          - generic [ref=e476]:
+            - 'link "If you know me, you know.🖤 #fashion #lifestyle #ootd #turkeytravel #fitcheck Carousel" [ref=e478] [cursor=pointer]':
+              - /url: /harmeetkauranand_/p/DXl5D_glNlb/
+              - 'img "If you know me, you know.🖤 #fashion #lifestyle #ootd #turkeytravel #fitcheck" [ref=e481]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carousel"
+            - 'link "Got my body ready before I got ready🏋🏻‍♀️💄 day out, gym fit, outfit check, grwm in gym, grwm reels, viral, trending song, arjan dhillon, coffee run, day out with girls, fyp #gymmotivation #grwm #fashionstyle #summervibes #trendingnow Clip" [ref=e484] [cursor=pointer]':
+              - /url: /harmeetkauranand_/reel/DXirR8AgKPY/
+              - 'img "Got my body ready before I got ready🏋🏻‍♀️💄 day out, gym fit, outfit check, grwm in gym, grwm reels, viral, trending song, arjan dhillon, coffee run, day out with girls, fyp #gymmotivation #grwm #fashionstyle #summervibes #trendingnow" [ref=e487]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "No shortcuts… just heavy lifts and enough protein 💪🔥 Ft @one.science.nutrition.in #gymmotivation #gymlifestyle #gymgirls #bodygoals #trendingnow Clip" [ref=e490] [cursor=pointer]':
+              - /url: /harmeetkauranand_/reel/DXegWPtgBFA/
+              - 'img "No shortcuts… just heavy lifts and enough protein 💪🔥 Ft @one.science.nutrition.in #gymmotivation #gymlifestyle #gymgirls #bodygoals #trendingnow" [ref=e493]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+        - generic [ref=e495]:
+          - link "See more posts" [ref=e497] [cursor=pointer]:
+            - /url: /harmeetkauranand_/
+            - generic [ref=e498]: See more posts
+          - separator [ref=e499]
+  - contentinfo [ref=e500]:
+    - generic [ref=e501]:
+      - generic [ref=e503]:
+        - link "Meta" [ref=e505] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e506]: Meta
+        - link "About" [ref=e508] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e509]: About
+        - link "Blog" [ref=e511] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e512]: Blog
+        - link "Jobs" [ref=e514] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e515]: Jobs
+        - link "Help" [ref=e517] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e518]: Help
+        - link "API" [ref=e520] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e521]: API
+        - link "Privacy" [ref=e523] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e524]: Privacy
+        - link "Terms" [ref=e526] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e527]: Terms
+        - link "Locations" [ref=e529] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e530]: Locations
+        - link "Popular" [ref=e532] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e533]: Popular
+        - link "Instagram Lite" [ref=e535] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e536]: Instagram Lite
+        - link "Meta AI" [ref=e538] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e539]: Meta AI
+        - link "Threads" [ref=e541] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e542]: Threads
+        - link "Contact Uploading & Non-Users" [ref=e544] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e545]: Contact Uploading & Non-Users
+        - link "Meta Verified" [ref=e547] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e548]: Meta Verified
+      - generic [ref=e549]:
+        - generic [ref=e550] [cursor=pointer]:
+          - generic [ref=e551]:
+            - generic [ref=e552]: English
+            - img "Down chevron icon" [ref=e555]
+          - combobox "Switch Display Language" [ref=e557]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English" [selected]
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e559]: © 2026 Instagram from Meta

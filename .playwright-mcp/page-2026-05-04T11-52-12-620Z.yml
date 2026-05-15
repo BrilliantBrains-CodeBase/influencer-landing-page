@@ -1,0 +1,305 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Log In" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Freel%2FDXwfw1hT0Fv%2F&source=desktop_nav
+      - link "Sign Up" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Close" [ref=e37] [cursor=pointer]:
+          - img "Close" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "i_am_aryon's profile picture" [ref=e46] [cursor=pointer]:
+              - img "i_am_aryon's profile picture" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Never miss a post from i_am_aryon
+              - generic [ref=e52]: Sign up for Instagram to stay in the loop.
+              - generic [ref=e54]:
+                - text: By continuing, you agree to Instagram's
+                - link "Terms of Use" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=en_US
+                - text: and
+                - link "Privacy Policy" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: .
+          - generic [ref=e57]:
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Log in" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - group "Video player" [ref=e82]:
+          - button "Toggle audio" [ref=e84] [cursor=pointer]:
+            - img "Audio is muted" [ref=e86]
+          - button "Tags" [ref=e89] [cursor=pointer]:
+            - img "Tags" [ref=e91]
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - link "one.science.nutrition.in's profile picture" [ref=e99]:
+                - img "one.science.nutrition.in's profile picture" [ref=e100]
+              - link "i_am_aryon's profile picture" [ref=e103]:
+                - img "i_am_aryon's profile picture" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e109]:
+                - link "i_am_aryon" [ref=e111] [cursor=pointer]:
+                  - /url: /i_am_aryon/
+                  - generic [ref=e114]: i_am_aryon
+                - text: and
+                - link "one.science.nutrition.in" [ref=e116] [cursor=pointer]:
+                  - /url: /one.science.nutrition.in/
+                  - generic [ref=e119]: one.science.nutrition.in
+              - link "Original audio" [ref=e123] [cursor=pointer]:
+                - /url: /reels/audio/26682650524717995/
+                - generic [ref=e126]: Original audio
+            - button "More options" [ref=e129] [cursor=pointer]:
+              - img "More options" [ref=e132]
+          - separator [ref=e136]
+          - generic [ref=e138]:
+            - generic [ref=e140]:
+              - link "i_am_aryon's profile picture" [ref=e142] [cursor=pointer]:
+                - /url: /i_am_aryon/
+                - img "i_am_aryon's profile picture" [ref=e143]
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - link "i_am_aryon" [ref=e149] [cursor=pointer]:
+                    - /url: /i_am_aryon/
+                    - generic [ref=e152]: i_am_aryon
+                  - time [ref=e154]: 3d
+                - generic [ref=e155]:
+                  - text: Fuel the grind. Recover like a pro.
+                  - text: When performance meets precision — OSN Advanced BCAA by
+                  - link "@one.science.nutrition.in" [ref=e156] [cursor=pointer]:
+                    - /url: /one.science.nutrition.in/
+                  - text: isn’t just a supplement, it’s your recovery partner.
+                  - text: Powered up with one science nutrition— Don’t just train hard, he trains smart.
+                  - text: Less fatigue. Faster recovery. Better gains.
+                  - text: No shortcuts. Just science.
+                  - link "#onesciencenutrition" [ref=e157] [cursor=pointer]:
+                    - /url: /explore/tags/onesciencenutrition/
+                  - link "#nutrition" [ref=e158] [cursor=pointer]:
+                    - /url: /explore/tags/nutrition/
+                  - link "#gym" [ref=e159] [cursor=pointer]:
+                    - /url: /explore/tags/gym/
+                  - link "#fitness" [ref=e160] [cursor=pointer]:
+                    - /url: /explore/tags/fitness/
+                  - link "#viral" [ref=e161] [cursor=pointer]:
+                    - /url: /explore/tags/viral/
+            - button "Load more comments" [ref=e163] [cursor=pointer]:
+              - img "Load more comments" [ref=e165]
+            - generic [ref=e170]:
+              - link "rahul_siwach__'s profile picture" [ref=e173] [cursor=pointer]:
+                - /url: /rahul_siwach__/
+                - img "rahul_siwach__'s profile picture" [ref=e174]
+              - generic [ref=e176]:
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - link "rahul_siwach__" [ref=e181] [cursor=pointer]:
+                      - /url: /rahul_siwach__/
+                      - generic [ref=e184]: rahul_siwach__
+                    - link "3d" [ref=e186] [cursor=pointer]:
+                      - /url: /p/DXwfw1hT0Fv/c/17990074055962145/
+                      - time [ref=e187]: 3d
+                  - generic [ref=e189]: 🔥🔥🔥
+                - generic [ref=e190]:
+                  - button "1 like" [ref=e191] [cursor=pointer]:
+                    - generic [ref=e193]: 1 like
+                  - button "Reply" [ref=e194] [cursor=pointer]:
+                    - generic [ref=e196]: Reply
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - button "Like" [ref=e202] [cursor=pointer]:
+                  - img "Like" [ref=e205]
+                - button "Comment" [ref=e208] [cursor=pointer]:
+                  - img "Comment" [ref=e210]
+                - button "1" [ref=e212] [cursor=pointer]
+                - button "Share" [ref=e213] [cursor=pointer]:
+                  - img "Share" [ref=e214]
+              - button "Save" [ref=e218] [cursor=pointer]:
+                - img "Save" [ref=e220]
+            - link "3 days ago" [ref=e224] [cursor=pointer]:
+              - /url: /i_am_aryon/reel/DXwfw1hT0Fv/
+              - time [ref=e226]: 3 days ago
+          - generic [ref=e231]:
+            - link "Log in" [ref=e232] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Freel%2FDXwfw1hT0Fv%2F&source=post_comment_input
+            - text: to like or comment.
+      - separator [ref=e234]
+      - generic [ref=e235]:
+        - generic [ref=e237]:
+          - text: More posts from
+          - link "i_am_aryon" [ref=e238] [cursor=pointer]:
+            - /url: /i_am_aryon/
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - 'link "The grind doesn’t care how you feel. It only responds to effort. #hardworkpaysoff #fitnessjourney #gymrat #model #reels Clip" [ref=e244] [cursor=pointer]':
+              - /url: /i_am_aryon/reel/DT9lN54E2NX/
+              - 'img "The grind doesn’t care how you feel. It only responds to effort. #hardworkpaysoff #fitnessjourney #gymrat #model #reels" [ref=e247]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "I want to work in silence🏋️ #FitnessMotivation #FitnessJourney #FitLife #WorkoutMotivation #GymLife Clip" [ref=e250] [cursor=pointer]':
+              - /url: /i_am_aryon/reel/DX6jPdeT6ON/
+              - 'img "I want to work in silence🏋️ #FitnessMotivation #FitnessJourney #FitLife #WorkoutMotivation #GymLife" [ref=e253]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "Some days will break you… but discipline builds you back stronger. Showing up is the real win. 🔥 #StillShowUp #DisciplineOverMotivation #FitnessMotivation #CrossFit #TrainHard NoExcuses ConsistencyWins" [ref=e256] [cursor=pointer]':
+              - /url: /i_am_aryon/p/DX3ofx7k1Fm/
+              - 'img "Some days will break you… but discipline builds you back stronger. Showing up is the real win. 🔥 #StillShowUp #DisciplineOverMotivation #FitnessMotivation #CrossFit #TrainHard NoExcuses ConsistencyWins" [ref=e259]'
+          - generic [ref=e261]:
+            - 'link "No one is perfect Everyone adjusts But when you keep settling… you compromise your success.🙃 #discipline #fitnessmotivation #gymmindset #noexcuses #stayhard consistency selfimprovement" [ref=e263] [cursor=pointer]':
+              - /url: /i_am_aryon/p/DX0pcYTE4PX/
+              - 'img "No one is perfect Everyone adjusts But when you keep settling… you compromise your success.🙃 #discipline #fitnessmotivation #gymmindset #noexcuses #stayhard consistency selfimprovement" [ref=e266]'
+            - link "CrossFit is a much better experience. It’s not about showing off it’s about pure power your effort and achieving your goals through the best technique🏋️ Clip" [ref=e269] [cursor=pointer]:
+              - /url: /i_am_aryon/reel/DXvWlpwM5wZ/
+              - img "CrossFit is a much better experience. It’s not about showing off it’s about pure power your effort and achieving your goals through the best technique🏋️" [ref=e272]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "Before the wins, before the finish line… there’s this. Episode 1 of the HYROX grind 🔥 #reels #hyroxtraining🏃🏻‍♂️ #hyrox #fitnessjourney #gymrat Clip" [ref=e275] [cursor=pointer]':
+              - /url: /i_am_aryon/reel/DXdbG4cE1_D/
+              - 'img "Before the wins, before the finish line… there’s this. Episode 1 of the HYROX grind 🔥 #reels #hyroxtraining🏃🏻‍♂️ #hyrox #fitnessjourney #gymrat" [ref=e278]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+          - generic [ref=e280]:
+            - 'link "Giving up was never the plan… I paused, I struggled, I doubted — but I didn’t quit. Because every setback is just a setup to come back stronger. This isn’t just a comeback… it’s a reminder that I’m built for more. 💪 #gymrat #hardworkpaysoff #gymmotivation Clip" [ref=e282] [cursor=pointer]':
+              - /url: /i_am_aryon/reel/DXMdbYmE4rV/
+              - 'img "Giving up was never the plan… I paused, I struggled, I doubted — but I didn’t quit. Because every setback is just a setup to come back stronger. This isn’t just a comeback… it’s a reminder that I’m built for more. 💪 #gymrat #hardworkpaysoff #gymmotivation" [ref=e285]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "Showing up is one thing… showing up prepared hits different. 💪 Been focusing on training and recovery — fueling it right with OSN Advanced BCAA & Whey from @one.science.nutrition.in . Clean, effective, and built for consistency. ⚡ No shortcuts. Just better habits. #reels #viral #gymrat #fitnessjourney #onesciencenutrition Clip" [ref=e288] [cursor=pointer]':
+              - /url: /i_am_aryon/reel/DXD5yKTjMao/
+              - 'img "Showing up is one thing… showing up prepared hits different. 💪 Been focusing on training and recovery — fueling it right with OSN Advanced BCAA & Whey from @one.science.nutrition.in . Clean, effective, and built for consistency. ⚡ No shortcuts. Just better habits. #reels #viral #gymrat #fitnessjourney #onesciencenutrition" [ref=e291]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+        - generic [ref=e294]:
+          - link "See more posts" [ref=e296] [cursor=pointer]:
+            - /url: /i_am_aryon/
+            - generic [ref=e297]: See more posts
+          - separator [ref=e298]
+  - contentinfo [ref=e299]:
+    - generic [ref=e300]:
+      - generic [ref=e302]:
+        - link "Meta" [ref=e304] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e305]: Meta
+        - link "About" [ref=e307] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e308]: About
+        - link "Blog" [ref=e310] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e311]: Blog
+        - link "Jobs" [ref=e313] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e314]: Jobs
+        - link "Help" [ref=e316] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e317]: Help
+        - link "API" [ref=e319] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e320]: API
+        - link "Privacy" [ref=e322] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e323]: Privacy
+        - link "Terms" [ref=e325] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e326]: Terms
+        - link "Locations" [ref=e328] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e329]: Locations
+        - link "Popular" [ref=e331] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e332]: Popular
+        - link "Instagram Lite" [ref=e334] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e335]: Instagram Lite
+        - link "Meta AI" [ref=e337] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e338]: Meta AI
+        - link "Threads" [ref=e340] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e341]: Threads
+        - link "Contact Uploading & Non-Users" [ref=e343] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e344]: Contact Uploading & Non-Users
+        - link "Meta Verified" [ref=e346] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e347]: Meta Verified
+      - generic [ref=e348]:
+        - generic [ref=e349] [cursor=pointer]:
+          - generic [ref=e350]:
+            - generic [ref=e351]: English
+            - img "Down chevron icon" [ref=e354]
+          - combobox "Switch Display Language" [ref=e356]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English" [selected]
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e358]: © 2026 Instagram from Meta

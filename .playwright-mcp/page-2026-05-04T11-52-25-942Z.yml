@@ -1,0 +1,366 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Log In" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Freel%2FDXi5xA7k12F%2F&source=desktop_nav
+      - link "Sign Up" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Close" [ref=e37] [cursor=pointer]:
+          - img "Close" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "vxhini's profile picture" [ref=e46] [cursor=pointer]:
+              - img "vxhini's profile picture" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Never miss a post from vxhini
+              - generic [ref=e52]: Sign up for Instagram to stay in the loop.
+              - generic [ref=e54]:
+                - text: By continuing, you agree to Instagram's
+                - link "Terms of Use" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=en_US
+                - text: and
+                - link "Privacy Policy" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: .
+          - generic [ref=e57]:
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Log in" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - group "Video player" [ref=e82]:
+          - button "Toggle audio" [ref=e84] [cursor=pointer]:
+            - img "Audio is muted" [ref=e86]
+          - button "Tags" [ref=e89] [cursor=pointer]:
+            - img "Tags" [ref=e91]
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - link "skinloomofficial's profile picture" [ref=e99]:
+                - img "skinloomofficial's profile picture" [ref=e100]
+              - link "vxhini's profile picture" [ref=e103]:
+                - img "vxhini's profile picture" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e109]:
+                - link "vxhini" [ref=e111] [cursor=pointer]:
+                  - /url: /vxhini/
+                  - generic [ref=e114]: vxhini
+                - text: and
+                - link "skinloomofficial" [ref=e116] [cursor=pointer]:
+                  - /url: /skinloomofficial/
+                  - generic [ref=e119]: skinloomofficial
+              - link "Instagram • Mouse click (single) 2" [ref=e123] [cursor=pointer]:
+                - /url: /reels/audio/1301487558182039/
+                - generic [ref=e126]:
+                  - text: Instagram
+                  - generic [ref=e127]: •
+                  - text: Mouse click (single) 2
+            - button "More options" [ref=e130] [cursor=pointer]:
+              - img "More options" [ref=e133]
+          - separator [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - link "vxhini's profile picture" [ref=e143] [cursor=pointer]:
+                - /url: /vxhini/
+                - img "vxhini's profile picture" [ref=e144]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - link "vxhini" [ref=e150] [cursor=pointer]:
+                    - /url: /vxhini/
+                    - generic [ref=e153]: vxhini
+                  - time [ref=e155]: 1w
+                - generic [ref=e156]:
+                  - text: That one moisturiser oily skin girlies need for sure🎀💧
+                  - link "#skinloomglow" [ref=e157] [cursor=pointer]:
+                    - /url: /explore/tags/skinloomglow/
+                  - link "#thebarrierclub" [ref=e158] [cursor=pointer]:
+                    - /url: /explore/tags/thebarrierclub/
+                  - link "#skincare" [ref=e159] [cursor=pointer]:
+                    - /url: /explore/tags/skincare/
+                  - link "#skincareroutine" [ref=e160] [cursor=pointer]:
+                    - /url: /explore/tags/skincareroutine/
+            - button "Load more comments" [ref=e162] [cursor=pointer]:
+              - img "Load more comments" [ref=e164]
+            - generic [ref=e166]:
+              - generic [ref=e169]:
+                - link "__sanyaaaa.__'s profile picture" [ref=e172] [cursor=pointer]:
+                  - /url: /__sanyaaaa.__/
+                  - img "__sanyaaaa.__'s profile picture" [ref=e173]
+                - generic [ref=e175]:
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - link "__sanyaaaa.__" [ref=e180] [cursor=pointer]:
+                        - /url: /__sanyaaaa.__/
+                        - generic [ref=e183]: __sanyaaaa.__
+                      - link "1w" [ref=e185] [cursor=pointer]:
+                        - /url: /p/DXi5xA7k12F/c/17938834062035464/
+                        - time [ref=e186]: 1w
+                    - generic [ref=e188]: Woww❤️
+                  - generic [ref=e189]:
+                    - button "1 like" [ref=e190] [cursor=pointer]:
+                      - generic [ref=e192]: 1 like
+                    - button "Reply" [ref=e193] [cursor=pointer]:
+                      - generic [ref=e195]: Reply
+              - generic [ref=e198]:
+                - link "mithu.priv._'s profile picture" [ref=e201] [cursor=pointer]:
+                  - /url: /mithu.priv._/
+                  - img "mithu.priv._'s profile picture" [ref=e202]
+                - generic [ref=e204]:
+                  - generic [ref=e206]:
+                    - generic [ref=e207]:
+                      - link "mithu.priv._" [ref=e209] [cursor=pointer]:
+                        - /url: /mithu.priv._/
+                        - generic [ref=e212]: mithu.priv._
+                      - link "1w" [ref=e214] [cursor=pointer]:
+                        - /url: /p/DXi5xA7k12F/c/17945927007174037/
+                        - time [ref=e215]: 1w
+                    - generic [ref=e217]: Cutiieew
+                  - generic [ref=e218]:
+                    - button "1 like" [ref=e219] [cursor=pointer]:
+                      - generic [ref=e221]: 1 like
+                    - button "Reply" [ref=e222] [cursor=pointer]:
+                      - generic [ref=e224]: Reply
+              - generic [ref=e227]:
+                - link "mithu.priv._'s profile picture" [ref=e230] [cursor=pointer]:
+                  - /url: /mithu.priv._/
+                  - img "mithu.priv._'s profile picture" [ref=e231]
+                - generic [ref=e233]:
+                  - generic [ref=e235]:
+                    - generic [ref=e236]:
+                      - link "mithu.priv._" [ref=e238] [cursor=pointer]:
+                        - /url: /mithu.priv._/
+                        - generic [ref=e241]: mithu.priv._
+                      - link "1w" [ref=e243] [cursor=pointer]:
+                        - /url: /p/DXi5xA7k12F/c/18168369055422944/
+                        - time [ref=e244]: 1w
+                    - generic [ref=e246]: ❤️❤️❤️❤️
+                  - generic [ref=e247]:
+                    - button "1 like" [ref=e248] [cursor=pointer]:
+                      - generic [ref=e250]: 1 like
+                    - button "Reply" [ref=e251] [cursor=pointer]:
+                      - generic [ref=e253]: Reply
+              - generic [ref=e256]:
+                - link "singh_tanishq2's profile picture" [ref=e259] [cursor=pointer]:
+                  - /url: /singh_tanishq2/
+                  - img "singh_tanishq2's profile picture" [ref=e260]
+                - generic [ref=e262]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]:
+                      - link "singh_tanishq2" [ref=e267] [cursor=pointer]:
+                        - /url: /singh_tanishq2/
+                        - generic [ref=e270]: singh_tanishq2
+                      - link "1w" [ref=e272] [cursor=pointer]:
+                        - /url: /p/DXi5xA7k12F/c/18098317826118944/
+                        - time [ref=e273]: 1w
+                    - generic [ref=e275]: 🔥❤️❤️
+                  - generic [ref=e276]:
+                    - button "1 like" [ref=e277] [cursor=pointer]:
+                      - generic [ref=e279]: 1 like
+                    - button "Reply" [ref=e280] [cursor=pointer]:
+                      - generic [ref=e282]: Reply
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - button "Like" [ref=e288] [cursor=pointer]:
+                  - img "Like" [ref=e291]
+                - button "39" [ref=e293] [cursor=pointer]
+                - button "Comment" [ref=e295] [cursor=pointer]:
+                  - img "Comment" [ref=e297]
+                - button "4" [ref=e299] [cursor=pointer]
+                - button "Share" [ref=e300] [cursor=pointer]:
+                  - img "Share" [ref=e301]
+              - button "Save" [ref=e305] [cursor=pointer]:
+                - img "Save" [ref=e307]
+            - link "April 24" [ref=e311] [cursor=pointer]:
+              - /url: /vxhini/reel/DXi5xA7k12F/
+              - time [ref=e313]: April 24
+          - generic [ref=e318]:
+            - link "Log in" [ref=e319] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Freel%2FDXi5xA7k12F%2F&source=post_comment_input
+            - text: to like or comment.
+      - separator [ref=e321]
+      - generic [ref=e322]:
+        - generic [ref=e324]:
+          - text: More posts from
+          - link "vxhini" [ref=e325] [cursor=pointer]:
+            - /url: /vxhini/
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - link "That one serum that can make your entire day!☀️💧 comment for link! 🖇️ . . . . . . . . [face serum, bi phase serum, skincare, aesthetic content, reels, serum] Clip" [ref=e331] [cursor=pointer]:
+              - /url: /vxhini/reel/DXUaxIAk3w-/
+              - img "That one serum that can make your entire day!☀️💧 comment for link! 🖇️ . . . . . . . . [face serum, bi phase serum, skincare, aesthetic content, reels, serum]" [ref=e334]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - link "If you wanna look fresh in 5 seconds? This is definitely for you💧🥝‼️ @vagads.shop . . . . . . [skincare content, reels, skincare, aesthetic reels, girly content, pure rose water, lip balm, grwm] Clip" [ref=e337] [cursor=pointer]:
+              - /url: /vxhini/reel/DW1XlTVEx41/
+              - img "If you wanna look fresh in 5 seconds? This is definitely for you💧🥝‼️ @vagads.shop . . . . . . [skincare content, reels, skincare, aesthetic reels, girly content, pure rose water, lip balm, grwm]" [ref=e340]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - link "The only morning duo you’ll ever need 🌸🫧 @skinloomofficial . . . . . . . . [skincare routine, aesthetic reels, girly content, face wash, moisturiser, skincare, cleanser] Clip" [ref=e343] [cursor=pointer]:
+              - /url: /vxhini/reel/DWt44A9E35H/
+              - img "The only morning duo you’ll ever need 🌸🫧 @skinloomofficial . . . . . . . . [skincare routine, aesthetic reels, girly content, face wash, moisturiser, skincare, cleanser]" [ref=e346]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+          - generic [ref=e348]:
+            - 'link "When you’re running late and need glass skin in just 10 minutes!✨🌸 @kuja.care #collaboration #explorepage #kujacare #fyp #trending . . . . . . . . . [skincare, aesthetic reels, glass skin, korean skincare, natural glow, sensitive skin, hydrated skin, facial, viral reels, girly, skincare products] Clip" [ref=e350] [cursor=pointer]':
+              - /url: /vxhini/reel/DWb1gxDkxv9/
+              - 'img "When you’re running late and need glass skin in just 10 minutes!✨🌸 @kuja.care #collaboration #explorepage #kujacare #fyp #trending . . . . . . . . . [skincare, aesthetic reels, glass skin, korean skincare, natural glow, sensitive skin, hydrated skin, facial, viral reels, girly, skincare products]" [ref=e353]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "my new shower obsession from now🤎🧸 @mcaffeineofficial Link👇🏻 https://tinyurl.com/398b536j #pr #bodywash #bodycare #explorepage #fyp . . . . . . . . . [exfoliating body wash, mCaffeine, sensitive skin, beauty, body care products, shower gel, viral reels, aesthetic, shower routine] Clip" [ref=e356] [cursor=pointer]':
+              - /url: /vxhini/reel/DWEsYGnjAHC/
+              - 'img "my new shower obsession from now🤎🧸 @mcaffeineofficial Link👇🏻 https://tinyurl.com/398b536j #pr #bodywash #bodycare #explorepage #fyp . . . . . . . . . [exfoliating body wash, mCaffeine, sensitive skin, beauty, body care products, shower gel, viral reels, aesthetic, shower routine]" [ref=e359]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "Episode 1 of Skincare Routine🎀🤍 @laneige_in #skincare #koreanskincareroutine #trending #viral #fyp . . . . . . . [Laneige skincare, skincare routine, aesthetic reels, girly content, girls, glass skin] Clip" [ref=e362] [cursor=pointer]':
+              - /url: /vxhini/reel/DV3hWE4kzwB/
+              - 'img "Episode 1 of Skincare Routine🎀🤍 @laneige_in #skincare #koreanskincareroutine #trending #viral #fyp . . . . . . . [Laneige skincare, skincare routine, aesthetic reels, girly content, girls, glass skin]" [ref=e365]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+          - generic [ref=e367]:
+            - 'link "A sunscreen that replaces moisturiser??☀️ @letshyphen does wonders✨ Link👇🏻 https://tinyurl.com/2racj7k4 #explorepage #sunscreen #skincare #spf #letshyphen . . . . . . [skincare, aesthetic reels, viral, trending, sunscreen] Clip" [ref=e369] [cursor=pointer]':
+              - /url: /vxhini/reel/DVvxlppE6i0/
+              - 'img "A sunscreen that replaces moisturiser??☀️ @letshyphen does wonders✨ Link👇🏻 https://tinyurl.com/2racj7k4 #explorepage #sunscreen #skincare #spf #letshyphen . . . . . . [skincare, aesthetic reels, viral, trending, sunscreen]" [ref=e372]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+            - 'link "I can never regret spending money on girl stuff💁🏻‍♀️🛍️ @aqualogica.in #explorepage #foryou #fyp #trending #perfume . . . . . . . . . . [ugc, algorithm, viral, reels, scents, reviews, perfumes, self care, aqualogica, body mist, influencer] Clip" [ref=e375] [cursor=pointer]':
+              - /url: /vxhini/reel/DVoVU5Akywz/
+              - 'img "I can never regret spending money on girl stuff💁🏻‍♀️🛍️ @aqualogica.in #explorepage #foryou #fyp #trending #perfume . . . . . . . . . . [ugc, algorithm, viral, reels, scents, reviews, perfumes, self care, aqualogica, body mist, influencer]" [ref=e378]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clip"
+        - generic [ref=e381]:
+          - link "See more posts" [ref=e383] [cursor=pointer]:
+            - /url: /vxhini/
+            - generic [ref=e384]: See more posts
+          - separator [ref=e385]
+  - contentinfo [ref=e386]:
+    - generic [ref=e387]:
+      - generic [ref=e389]:
+        - link "Meta" [ref=e391] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e392]: Meta
+        - link "About" [ref=e394] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e395]: About
+        - link "Blog" [ref=e397] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e398]: Blog
+        - link "Jobs" [ref=e400] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e401]: Jobs
+        - link "Help" [ref=e403] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e404]: Help
+        - link "API" [ref=e406] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e407]: API
+        - link "Privacy" [ref=e409] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e410]: Privacy
+        - link "Terms" [ref=e412] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e413]: Terms
+        - link "Locations" [ref=e415] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e416]: Locations
+        - link "Popular" [ref=e418] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e419]: Popular
+        - link "Instagram Lite" [ref=e421] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e422]: Instagram Lite
+        - link "Meta AI" [ref=e424] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e425]: Meta AI
+        - link "Threads" [ref=e427] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e428]: Threads
+        - link "Contact Uploading & Non-Users" [ref=e430] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e431]: Contact Uploading & Non-Users
+        - link "Meta Verified" [ref=e433] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e434]: Meta Verified
+      - generic [ref=e435]:
+        - generic [ref=e436] [cursor=pointer]:
+          - generic [ref=e437]:
+            - generic [ref=e438]: English
+            - img "Down chevron icon" [ref=e441]
+          - combobox "Switch Display Language" [ref=e443]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English" [selected]
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e445]: © 2026 Instagram from Meta
