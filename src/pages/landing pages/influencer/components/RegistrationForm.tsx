@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const GOOGLE_SHEET_URL = import.meta.env.VITE_INFLUENCER_SCRIPT_URL as string;
+const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbxShn1PbisWDuHQKjkDWvCj11-Ccu0x2Dlbu5ucQNni9XRjxcRnmVoMzY-EcVphfODKqQ/exec";
 
 type CreatorType = "UGC Creator" | "Influencer" | "Both — UGC + Influencer" | "";
 type CollabPref = "Paid Only" | "Open to Barter" | "Both — Paid & Barter" | "";

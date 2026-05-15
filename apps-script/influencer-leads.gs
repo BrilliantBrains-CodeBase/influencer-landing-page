@@ -18,11 +18,12 @@
 const SHEET_NAME   = "Influencer Leads";
 const STATUS_COL   = 11;   // column K — Status
 const TOKEN_COL    = 12;   // column L — UUID token (hidden)
-const SIG_NAME_COL = 13;   // column M — Signature name after NDA
-const SIG_AT_COL   = 14;   // column N — Signed timestamp
+const DOWNLOAD_LINK_COL  = 13;  // column M — Zoho download link
+const AGREEMENT_DATE_COL = 14;  // column N — Agreement date from Zoho
 const MAIL_LINK_COL = 15;  // column O — clickable mailto link for reviewer
 
-const NDA_BASE = "https://brilliantbrains.digital/nda";
+const NDA_BASE     = "https://brilliantbrains.digital/nda";
+const ZOHO_WEBHOOK = "https://writer.zoho.in/writer/api/v1/documents/9tx48bdd0e7ccbea74153bbfe4956e1500cfe/incomingwebhook/mergewithpresets?auth_type=apikeyauth&encapiKey=PHtE6L0MQOnqj2R99BUI4f%2B%2FFc6tYIom%2FOtuKVFC5d4WCfEKTU1R%2Fo15wT%2Bwq00qAPNKQqaSm4w557KasOzWdzvrM2ZICGqyqK3sx%2FVYSPOZufHsiyhJ7l5APiuEDtm6NQ%3D%3D";
 
 // ─────────────────────────────────────────────
 // Web App entry point
@@ -33,6 +34,7 @@ function doPost(e) {
 
     if (payload.action === "submit")       return handleFormSubmit(payload);
     if (payload.action === "complete_nda") return handleNDAComplete(payload);
+    if (payload.action === "request_nda")  return handleNDARequest(payload);
 
     return jsonResponse({ ok: false, error: "Unknown action" });
   } catch (err) {
@@ -81,13 +83,59 @@ function handleNDAComplete(data) {
     if (rowEmail === data.email && rowToken === data.token) {
       const rowNum = i + 1; // convert to 1-indexed
       sheet.getRange(rowNum, STATUS_COL).setValue("Registered");
-      sheet.getRange(rowNum, SIG_NAME_COL).setValue(data.signatureName || "");
-      sheet.getRange(rowNum, SIG_AT_COL).setValue(data.signedAt || new Date().toISOString());
+      sheet.getRange(rowNum, DOWNLOAD_LINK_COL).setValue(data.signatureName || "");
+      sheet.getRange(rowNum, AGREEMENT_DATE_COL).setValue(data.signedAt || new Date().toISOString());
       return jsonResponse({ ok: true });
     }
   }
 
   return jsonResponse({ ok: false, error: "Token mismatch or lead not found" });
+}
+
+// ─────────────────────────────────────────────
+// Handle info-collection form submit → call Zoho webhook
+// ─────────────────────────────────────────────
+function handleNDARequest(data) {
+  const mergePayload = {
+    merge_data: {
+      data: [{
+        AgreementDate: data.agreementDate || "",
+        Name:          data.name          || "",
+        SocialHandle:  data.handle        || "",
+        Pages:         data.address       || "",
+        Phone:         data.phone         || "",
+        email:         data.email         || "",
+        "PAN Card":    data.panCard       || "",
+      }]
+    }
+  };
+
+  const response   = UrlFetchApp.fetch(ZOHO_WEBHOOK, {
+    method:             "post",
+    contentType:        "application/json",
+    payload:            JSON.stringify(mergePayload),
+    muteHttpExceptions: true,
+  });
+
+  const zohoResult    = JSON.parse(response.getContentText());
+  const record        = zohoResult.records && zohoResult.records[0];
+  const downloadLink  = record ? (record.download_link || "") : "";
+  const agreementDate = record ? (record.AgreementDate || "").trim() : "";
+
+  // Update sheet row
+  const sheet = getSheet();
+  const rows  = sheet.getDataRange().getValues();
+  for (let i = 1; i < rows.length; i++) {
+    if (rows[i][1] === data.email && rows[i][TOKEN_COL - 1] === data.token) {
+      const rowNum = i + 1;
+      sheet.getRange(rowNum, STATUS_COL).setValue("Registered");
+      sheet.getRange(rowNum, DOWNLOAD_LINK_COL).setValue(downloadLink);
+      sheet.getRange(rowNum, AGREEMENT_DATE_COL).setValue(agreementDate);
+      break;
+    }
+  }
+
+  return jsonResponse({ ok: true });
 }
 
 // ─────────────────────────────────────────────
@@ -103,16 +151,18 @@ function onEdit(e) {
     const row = e.range.getRow();
     if (row <= 1) return; // skip header row
 
-    const name  = sheet.getRange(row, 1).getValue(); // col A
-    const email = sheet.getRange(row, 2).getValue(); // col B
-    const token = sheet.getRange(row, TOKEN_COL).getValue();
+    const name   = sheet.getRange(row, 1).getValue(); // col A
+    const email  = sheet.getRange(row, 2).getValue(); // col B
+    const phone  = sheet.getRange(row, 3).getValue(); // col C — WhatsApp
+    const handle = sheet.getRange(row, 4).getValue(); // col D — Instagram
+    const token  = sheet.getRange(row, TOKEN_COL).getValue();
 
     if (!email || !token) {
       Logger.log("onEdit: missing email or token for row " + row);
       return;
     }
 
-    writeMailtoLink(sheet, row, email, name, token);
+    writeMailtoLink(sheet, row, email, name, token, phone, handle);
     Logger.log("mailto link written for " + email);
   } catch (err) {
     Logger.log("onEdit error: " + err.toString());
@@ -123,26 +173,27 @@ function onEdit(e) {
 // Write a clickable mailto: hyperlink into column O
 // No email-send permissions required — only spreadsheet write access
 // ─────────────────────────────────────────────
-function writeMailtoLink(sheet, row, email, name, token) {
+function writeMailtoLink(sheet, row, email, name, token, phone, handle) {
   const ndaLink = NDA_BASE
-    + "?email=" + encodeURIComponent(email)
-    + "&token=" + encodeURIComponent(token)
-    + "&name="  + encodeURIComponent(name || "");
+    + "?email="  + encodeURIComponent(email)
+    + "&token="  + encodeURIComponent(token)
+    + "&name="   + encodeURIComponent(name   || "")
+    + "&phone="  + encodeURIComponent(phone  || "")
+    + "&handle=" + encodeURIComponent(handle || "");
 
-  const subject = "You're Approved! Sign Your Agreement – Brilliant Brains";
+  const subject = "Action Required: Complete Your Details for NDA Agreement – Brilliant Brains";
   const body = [
     "Hi " + (name || "Creator") + ",",
     "",
-    "Congratulations! You've been approved to join the Brilliant Brains Influencer Network.",
+    "You've been approved to join the Brilliant Brains Influencer Network!",
     "",
-    "Please sign your Non-Disclosure & Influencer Agreement to complete your registration:",
+    "To initiate your NDA Agreement, we need a few additional details.",
+    "Please click the link below and fill in your Address and PAN Card number:",
     "",
     ndaLink,
     "",
-    "What happens next:",
-    "✓ Sign the agreement (takes 2 minutes)",
-    "✓ Our POC will reach out on WhatsApp within 24 hours",
-    "✓ Start receiving brand campaigns matched to your niche",
+    "This takes less than a minute. Once submitted, your NDA Agreement will be",
+    "sent to your email for review and signing.",
     "",
     "Best,",
     "Brilliant Brains Team",
@@ -185,7 +236,7 @@ function setupSheet() {
     "Full Name", "Email", "WhatsApp", "Instagram Handle",
     "City", "Creator Type", "Collab Preference", "Niches",
     "Follower Range", "Submitted At",
-    "Status", "Token", "Signature Name", "Signed At", "Send NDA Email",
+    "Status", "Token", "Download Link", "Agreement Date", "Send NDA Email",
   ];
 
   sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
