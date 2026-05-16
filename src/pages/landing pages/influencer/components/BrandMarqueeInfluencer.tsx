@@ -22,6 +22,14 @@ const logos = [
   { id: 17, src: "/images/Logos/17.png", alt: "Brand 17" },
   { id: 18, src: "/images/Logos/18.png", alt: "Brand 18" },
   { id: 19, src: "/images/Logos/19.png", alt: "Brand 19" },
+  { id: 20, src: "/images/Logos/20.png", alt: "Milkvilla" },
+  { id: 21, src: "/images/Logos/21.png", alt: "Deconstruct" },
+  { id: 22, src: "/images/Logos/22.png", alt: "Dermacan" },
+  { id: 23, src: "/images/Logos/23.png", alt: "Evday" },
+  { id: 24, src: "/images/Logos/24.png", alt: "Brand 24" },
+  { id: 25, src: "/images/Logos/25.png", alt: "Mamaearth" },
+  { id: 26, src: "/images/Logos/26.png", alt: "Maniyaar" },
+  { id: 27, src: "/images/Logos/27.png", alt: "Schick A Walk" },
 ];
 
 const duplicatedLogos = [...logos, ...logos];
