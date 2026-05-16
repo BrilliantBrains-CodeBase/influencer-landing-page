@@ -1,8 +1,6 @@
-import { Routes, Route, Navigate } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import About from "./pages/about/About"
 import NotFound from "./pages/not found/NotFound"
-import EcommerceLandingPage from "./pages/landing pages/ecommerce/EcommerceLandingPage"
-import EcommerceThankYou from "./pages/thankyou/EcommerceThankYou"
 import InfluencerThankYou from "./pages/thankyou/InfluencerThankYou"
 import InfluencerLandingPage from "./pages/landing pages/influencer/InfluencerLandingPage"
 import NDAPage from "./pages/nda/NDAPage"
@@ -19,14 +17,8 @@ import ProtectedRoute from "./routes/ProtectedRoute"
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/influencer" replace />} />
+      <Route path="/" element={<InfluencerLandingPage />} />
       <Route path="/aboutus" element={<About />} />
-      <Route
-        path="/ecommerce"
-        element={<EcommerceLandingPage />}
-      />
-      <Route path="/ecommerce-thank-you" element={<EcommerceThankYou />} />
-      <Route path="/influencer" element={<InfluencerLandingPage />} />
       <Route path="/influencer-thank-you" element={<InfluencerThankYou />} />
       <Route path="/nda" element={<NDAPage />} />
 
