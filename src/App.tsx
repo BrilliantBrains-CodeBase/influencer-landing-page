@@ -1,5 +1,4 @@
 import { Routes, Route, Navigate } from "react-router-dom"
-import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import NotFound from "./pages/not found/NotFound"
 import EcommerceLandingPage from "./pages/landing pages/ecommerce/EcommerceLandingPage"
