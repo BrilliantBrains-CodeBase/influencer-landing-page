@@ -118,7 +118,7 @@ const HeroInfluencer: React.FC = () => {
               preload="auto"
               className="w-full h-full object-cover"
             >
-              <source src="/videos/hero-mobile-v2.mp4" type="video/mp4" />
+              <source src="/videos/influencer-hero-mobile.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
           </div>
@@ -187,7 +187,7 @@ const HeroInfluencer: React.FC = () => {
                 preload="auto"
                 className="absolute top-1/2 left-1/2 min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 object-cover"
               >
-                <source src="/videos/HeroSectionDesktop.mp4" type="video/mp4" />
+                <source src="/videos/influencer-hero-desktop.mp4" type="video/mp4" />
               </video>
             </Parallax>
           </div>

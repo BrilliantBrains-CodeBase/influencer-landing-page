@@ -11,24 +11,24 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Ananya Mehta",
-    handle: "@ananyalifestyle",
+    name: "Chetna Malik",
+    handle: "@cmfittness_",
     followers: "280K followers",
     niche: "Lifestyle",
     content:
       "I went from 2 brand collabs a quarter to 12 a month after joining. The team handles everything — I just create. My income grew 6X in 5 months.",
   },
   {
-    name: "Rohan Kapoor",
-    handle: "@ugcwithrohan",
+    name: "Harmeet Kaur Anand",
+    handle: "@harmeetkauranand_",
     followers: "UGC Creator",
     niche: "Fitness & Nutrition",
     content:
       "As a UGC creator with under 5K followers, I was invisible to brands. Brilliant Brains gave me access to 8 campaigns in my first month. Absolute game changer.",
   },
   {
-    name: "Shreya Pillai",
-    handle: "@shreyacooks",
+    name: "Vahini Krishna",
+    handle: "@vxhini",
     followers: "190K followers",
     niche: "Cooking & Food",
     content:
