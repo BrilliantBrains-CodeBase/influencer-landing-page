@@ -52,7 +52,7 @@ const InfluencerThankYou: React.FC = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="/influencer"
+            href="/"
             className="px-6 py-3 rounded-full text-sm font-semibold text-black bg-[linear-gradient(90deg,#F95A1B_0%,#E9DBB9_100%)] hover:opacity-90 transition"
           >
             Back to page

@@ -22,8 +22,8 @@ const DOWNLOAD_LINK_COL  = 13;  // column M — Zoho download link
 const AGREEMENT_DATE_COL = 14;  // column N — Agreement date from Zoho
 const MAIL_LINK_COL = 15;  // column O — clickable mailto link for reviewer
 
-const NDA_BASE     = "https://brilliantbrains.digital/nda";
-const ZOHO_WEBHOOK = "https://writer.zoho.in/writer/api/v1/documents/9tx48bdd0e7ccbea74153bbfe4956e1500cfe/incomingwebhook/mergewithpresets?auth_type=apikeyauth&encapiKey=PHtE6L0MQOnqj2R99BUI4f%2B%2FFc6tYIom%2FOtuKVFC5d4WCfEKTU1R%2Fo15wT%2Bwq00qAPNKQqaSm4w557KasOzWdzvrM2ZICGqyqK3sx%2FVYSPOZufHsiyhJ7l5APiuEDtm6NQ%3D%3D";
+const NDA_BASE     = "https://influencers.brilliantbrains.ai/nda";
+const ZOHO_WEBHOOK = "https://writer.zoho.in/writer/api/v1/documents/9tx48bdd0e7ccbea74153bbfe4956e1500cfe/incomingwebhook/mergewithpresets?auth_type=apikeyauth&encapiKey=PHtE6L0MQOnqj2R99BUI4f%2B%2FFc6tYIom%2FOtuKVFC5d4WCfEKTU1R%2Fo15wT%2Bwq00qAPNKQqaSm4w557KasOzWdzvrM2ZICGqyqK3sx%2FVYSPOZufHsiyhe8QQcPyuHBt%2BoOQ%3D%3D";
 
 // ─────────────────────────────────────────────
 // Web App entry point
